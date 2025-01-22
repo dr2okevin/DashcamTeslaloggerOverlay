@@ -1,9 +1,10 @@
 # Dashcam Teslalogger Overlay
-This is a coolection of php scripts to put an simple Telemetry overlay over Dashcam videos.  
+This is a collection of php scripts to put an simple Telemetry overlay over Dashcam videos.  
 Data is synced for every frame  
-I wrote this for Data comming from the Teslalogger.  
+I wrote this for Data coming from the [Teslalogger](https://github.com/bassmaster187/TeslaLogger).  
 I originally didn't intended to reuse or publish this code, so there is a lot of mess in it.
-Its all made for the Combinations of The Teslalogger and a BlackVue Dashcam. But with some adaption of the naming format of files and data cols, it should also work with other dashcams and other data sources.
+Its all made for the combinations of The Teslalogger and a BlackVue Dashcam. But with some adaption of the naming format of files and data cols, it should also work with other Dashcams and other data sources.
+The final video is created with the help of [ffmpeg](https://github.com/FFmpeg/FFmpeg)
 
 ## How to use
 The script expects a csv export as data source. Teslalogger comes with grafana whichs provides such an export.
